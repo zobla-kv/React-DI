@@ -1,14 +1,15 @@
 {
-  "name": "react-di",
-  "version": "0.0.1",
-  "description": "Angular-style singleton services for React using Context API",
+  "name": "react-di-lite",
+  "version": "1.0.0",
+  "description": "Lightweight, hierarchical dependency injection for React inspired by Angular’s services",
   "type": "module",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/index.js"
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
     }
   },
   "files": [
@@ -29,6 +30,11 @@
   ],
   "author": "Nemanja Blagojevic",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zobla-kv/react-di-lite.git"
+  },
+  "homepage": "https://github.com/zobla-kv/react-di-lite#readme",
   "devDependencies": {
     "@types/react": "^18.0.0",
     "tsup": "^8.0.0",
