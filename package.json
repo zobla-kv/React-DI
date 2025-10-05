@@ -1,14 +1,14 @@
 {
-  "name": "react-dependency-injection",
+  "name": "react-di",
   "version": "0.0.1",
   "description": "Angular-style singleton services for React using Context API",
+  "type": "module",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/index.js",
-      "require": "./dist/index.cjs"
+      "import": "./dist/index.js"
     }
   },
   "files": [
