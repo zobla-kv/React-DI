@@ -5,7 +5,7 @@ type ServiceInstances<T extends ServiceFactories> = {
   [K in keyof T]: ReturnType<T[K]>;
 };
 
-export function createServiceProvider<T extends ServiceFactories>(
+export function createServicesProvider<T extends ServiceFactories>(
   factories: T
 ) {
   type Instances = ServiceInstances<T>;

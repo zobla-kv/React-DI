@@ -1,11 +1,11 @@
-import { createServiceProvider } from '../../../../src/ServicesProvider';
+import { createServicesProvider } from '../../../../src/ServicesProvider';
 import { CounterService } from './CounterService';
 
 export const [GlobalServicesProvider, useGlobalServices] =
-  createServiceProvider({
+  createServicesProvider({
     counterService: CounterService,
   });
 
-export const [ChatServicesProvider, useChatServices] = createServiceProvider({
+export const [ChatServicesProvider, useChatServices] = createServicesProvider({
   counterService: CounterService,
 });
