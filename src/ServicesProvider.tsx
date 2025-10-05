@@ -20,7 +20,11 @@ export function createServiceProvider<T extends ServiceFactories>(
       (instances as any)[key] = factory();
     }
 
-    return <ServicesContext value={instances}>{children}</ServicesContext>;
+    return (
+      <ServicesContext.Provider value={instances}>
+        {children}
+      </ServicesContext.Provider>
+    );
   };
 
   const useServices = (): Instances => {
