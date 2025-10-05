@@ -1,14 +1,16 @@
 import './App.css';
 import { GlobalServicesProvider } from './services';
-import { Consumer } from './components/Consumer';
+import { Component1 } from './components/Component1';
+import { Component2 } from './components/Component2';
 
 function App() {
   return (
-    <div>
-      <GlobalServicesProvider>
-        <Consumer />
-      </GlobalServicesProvider>
-    </div>
+    <GlobalServicesProvider>
+      <div style={{ display: 'flex ', gap: '200px' }}>
+        <Component1 />
+        <Component2 />
+      </div>
+    </GlobalServicesProvider>
   );
 }
 

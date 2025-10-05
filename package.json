@@ -30,9 +30,9 @@
   "author": "Nemanja Blagojevic",
   "license": "MIT",
   "devDependencies": {
+    "@types/react": "^18.0.0",
     "tsup": "^8.0.0",
-    "typescript": "^5.0.0",
-    "@types/react": "^18.0.0"
+    "typescript": "^5.0.0"
   },
   "peerDependencies": {
     "react": ">=17"
