@@ -87,7 +87,7 @@ export const Component2 = () => {
 
 Notice shared state
 
-![Demo of global services provider](/assets/demo-global.gif)
+![Demo of global services provider](https://github.com/zobla-kv/react-di-lite/blob/master/assets/demo-global.gif?raw=true)
 
 2. Multiple services providers
 
@@ -140,7 +140,7 @@ export const Component2 = () => {
 
 Notice separate state
 
-![Demo of multiple services providers](/assets/demo-multiple.gif)
+![Demo of multiple services providers](https://github.com/zobla-kv/react-di-lite/blob/master/assets/demo-multiple.gif?raw=true)
 
 ---
 
@@ -155,6 +155,6 @@ Built entirely with **TypeScript**, the library provides:
 
 Notice separate state
 
-![Demo of typescript](/assets/demo-typescript.gif)
+![Demo of typescript](https://github.com/zobla-kv/react-di-lite/blob/master/assets/demo-typescript.gif?raw=true)
 
 ---
