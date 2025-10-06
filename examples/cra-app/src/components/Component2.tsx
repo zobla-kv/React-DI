@@ -1,7 +1,7 @@
-import { useChatServices } from '../services';
+import { useGlobalServices } from '../services';
 
 export const Component2 = () => {
-  const { counterService } = useChatServices();
+  const { counterService } = useGlobalServices();
 
   return (
     <div>
