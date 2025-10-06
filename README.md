@@ -151,10 +151,6 @@ Built entirely with **TypeScript**, the library provides:
 - Full **IntelliSense** support in your IDE
 - Automatic type inference for injected services
 
-##### 🎥 Demo Video
-
-Notice separate state
-
 ![Demo of typescript](https://github.com/zobla-kv/react-di-lite/blob/master/assets/demo-typescript.gif?raw=true)
 
 ---
